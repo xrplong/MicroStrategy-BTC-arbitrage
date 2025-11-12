@@ -6,10 +6,10 @@
 Main and only script.
 
 Input data:
-- lambda
-- omega
-- N (How many solutions you want to consider)
-- P (How many solutions you want to plot, < N)
+- SYMBOL_MSTR = "MSTR"
+- SYMBOL_BTC = "BTC-USD"
+- START_DATE = "2020-01-01" 
+- END_DATE = "2025-11-08"
 
 Output data:
 - Line plot showing travelling wave behaviour of solutions.
