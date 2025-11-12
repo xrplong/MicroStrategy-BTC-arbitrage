@@ -19,7 +19,16 @@ Input data:
 
 - INITIAL_CAPITAL = 100_000
 
-Output data:
-- Line plot showing travelling wave behaviour of solutions.
-- Line plot showing the asymptotic convergence in slope of the travelling wave solutions.
+Output data (Performance matrics):
+- Total return
+- Annualised return
+- Sharpe ratio
+- Sortino ratio
+- Max drawdown
+- Final capital
+  
+Output data (Plots over time axis):
+- mNAV Ratio & Z-Score
+- Signals (+1, 0, -1 )
+- Equity curve
 
