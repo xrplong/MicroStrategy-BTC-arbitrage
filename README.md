@@ -17,28 +17,9 @@ Input data:
 - STOP_LOSS_Z = 3.0  # Hard stop if z > STOP_LOSS_Z (optional)
 - BETA_LOOKBACK = 40  # For beta hedging
 
-# Initial capital
-INITIAL_CAPITAL = 100_000
+- INITIAL_CAPITAL = 100_000
 
 Output data:
 - Line plot showing travelling wave behaviour of solutions.
 - Line plot showing the asymptotic convergence in slope of the travelling wave solutions.
 
-
-# ======================
-# 1. CONFIGURATION
-# ======================
-SYMBOL_MSTR = "MSTR"
-SYMBOL_BTC = "BTC-USD"
-START_DATE = "2020-01-01"  # year-month-day
-END_DATE = "2025-11-08"
-
-# Strategy Parameters
-LOOKBACK = 40  # Days for rolling mean/std of mNAV
-Z_ENTRY = 1.2  # Enter when |z| > Z_ENTRY - default 1.5
-Z_EXIT = 1  # Exit when |z| < Z_EXIT - default 0.5
-STOP_LOSS_Z = 3.0  # Hard stop if z > STOP_LOSS_Z (optional)
-BETA_LOOKBACK = 40  # For beta hedging
-
-# Initial capital
-INITIAL_CAPITAL = 100_000
